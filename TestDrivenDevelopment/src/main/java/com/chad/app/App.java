@@ -3,14 +3,15 @@ package com.chad.app;
 
 public class App 
 {
+
     public float floatingPoint()
     {
-        return (float) 1.5;
+        return (float) (1.5+1.5);
     }
 
     public int integer()
     {
-        return 1;
+        return 1+1;
     }
 
     public App objectEquality()
@@ -56,10 +57,11 @@ public class App
 
     public void timeout(){
 
-        for(int i = 0; i < 1; i++)
+        /*for(int i = 0; i < 1; i++)
         {
             int num = 1;
-        }
+        }*/
+
     }
 
     public int[] array(){
