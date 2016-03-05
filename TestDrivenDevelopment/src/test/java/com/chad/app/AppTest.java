@@ -11,7 +11,7 @@ import static org.junit.Assert.assertEquals;
 public class AppTest
 {
     App obj1 = new App();
-
+    App obj2 = new App();
     @Test
     public void testFloatingPoint() throws Exception {
         Assert.assertEquals(obj1.floatingPoint(), (float)3.0);
@@ -31,7 +31,7 @@ public class AppTest
 
     @Test
     public void testObjectIdentity() throws Exception {
-
+        Assert.assertSame(obj1.objectIdentity(), obj1);
     }
 
     @Test
