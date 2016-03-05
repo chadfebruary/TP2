@@ -22,18 +22,23 @@ public class AppTest
     }
 
     @Test
-    public void testEquality() throws Exception {
-        Assert.assertEquals(obj.objectEquality(), obj);
+    public void testObjectEquality() throws Exception {
+        Assert.assertSame(obj.objectEquality(), obj);
+    }
+
+    @Test
+    public void testObjectIdentity() throws Exception {
+
     }
 
     @Test
     public void testTruth() throws Exception {
-        Assert.assertTrue(obj.truth() == 1);
+        Assert.assertTrue(obj.truth());
     }
 
     @Test
     public void testFalse() throws Exception {
-        Assert.assertFalse(obj.falseTest() == 2);
+        Assert.assertFalse(obj.falseTest());
     }
 
     @Test
@@ -51,12 +56,9 @@ public class AppTest
 
     }
 
-    @Test
-    public void testArray() throws Exception {
-        int[] array = {1, 2, 3};
-
-        //assertArrayEquals(new int[]{1,2,3},new int[]{1,2,3});
-        assertArrayEquals(obj.array(), array);
+    @Test(expected = IndexOutOfBoundsException.class)
+    public void testExceptionTest() throws Exception {
+        obj.exceptionTest();
     }
 
     @Test(timeout=1)
@@ -64,8 +66,17 @@ public class AppTest
         obj.timeout();
     }
 
-    @Test(expected = IndexOutOfBoundsException.class)
-    public void testExceptionTest() throws Exception {
-        obj.exceptionTest();
+    @Test
+    public void testDisablingTest(){
+
     }
+
+    @Test
+    public void testArraysContent() throws Exception {
+        int[] array = {1, 2, 3};
+
+        assertArrayEquals(obj.array(), array);
+    }
+
+
 }

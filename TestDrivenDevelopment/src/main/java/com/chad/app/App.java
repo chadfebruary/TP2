@@ -23,14 +23,14 @@ public class App
         return this;
     }
 
-    public int truth()
+    public boolean truth()
     {
-        return 1;
+        return true;
     }
 
-    public int falseTest()
+    public boolean falseTest()
     {
-        return 1;
+        return false;
     }
 
     public String nullTest()
