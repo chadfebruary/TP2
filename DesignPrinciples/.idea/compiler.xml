@@ -23,8 +23,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="DesignPrinciples" />
+        <module name="LiskovSubstitutePrinciple" />
+        <module name="OpenClosedPrinciple" />
+        <module name="OpenClosedPrincipleViolated" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="DesignPrinciples" target="1.5" />
+      <module name="LiskovSubstitutePrinciple" target="1.5" />
+      <module name="OpenClosedPrinciple" target="1.5" />
+      <module name="OpenClosedPrincipleViolated" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

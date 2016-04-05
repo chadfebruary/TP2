@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DesignPrinciples.iml" filepath="$PROJECT_DIR$/DesignPrinciples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LiskovSubstitutePrinciple/LiskovSubstitutePrinciple.iml" filepath="$PROJECT_DIR$/LiskovSubstitutePrinciple/LiskovSubstitutePrinciple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenClosedPrinciple/OpenClosedPrinciple.iml" filepath="$PROJECT_DIR$/OpenClosedPrinciple/OpenClosedPrinciple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenClosedPrincipleViolated/OpenClosedPrincipleViolated.iml" filepath="$PROJECT_DIR$/OpenClosedPrincipleViolated/OpenClosedPrincipleViolated.iml" />
     </modules>
   </component>
 </project>

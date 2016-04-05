@@ -5,7 +5,12 @@
   <groupId>com.chad.app</groupId>
   <artifactId>chad.app</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <modules>
+    <module>LiskovSubstitutePrinciple</module>
+    <module>OpenClosedPrinciple</module>
+    <module>OpenClosedPrincipleViolated</module>
+  </modules>
+  <packaging>pom</packaging>
 
   <name>chad.app</name>
   <url>http://maven.apache.org</url>
