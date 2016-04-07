@@ -4,8 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DesignPrinciples.iml" filepath="$PROJECT_DIR$/DesignPrinciples.iml" />
       <module fileurl="file://$PROJECT_DIR$/LiskovSubstitutePrinciple/LiskovSubstitutePrinciple.iml" filepath="$PROJECT_DIR$/LiskovSubstitutePrinciple/LiskovSubstitutePrinciple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LiskovSubstitutePrincipleViolated/LiskovSubstitutePrincipleViolated.iml" filepath="$PROJECT_DIR$/LiskovSubstitutePrincipleViolated/LiskovSubstitutePrincipleViolated.iml" />
       <module fileurl="file://$PROJECT_DIR$/OpenClosedPrinciple/OpenClosedPrinciple.iml" filepath="$PROJECT_DIR$/OpenClosedPrinciple/OpenClosedPrinciple.iml" />
       <module fileurl="file://$PROJECT_DIR$/OpenClosedPrincipleViolated/OpenClosedPrincipleViolated.iml" filepath="$PROJECT_DIR$/OpenClosedPrincipleViolated/OpenClosedPrincipleViolated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SingleResponsibilityPrinciple/SingleResponsibilityPrinciple.iml" filepath="$PROJECT_DIR$/SingleResponsibilityPrinciple/SingleResponsibilityPrinciple.iml" />
     </modules>
   </component>
 </project>

@@ -9,6 +9,8 @@
     <module>LiskovSubstitutePrinciple</module>
     <module>OpenClosedPrinciple</module>
     <module>OpenClosedPrincipleViolated</module>
+    <module>LiskovSubstitutePrincipleViolated</module>
+    <module>SingleResponsibilityPrinciple</module>
   </modules>
   <packaging>pom</packaging>
 

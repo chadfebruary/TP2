@@ -24,15 +24,25 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="LiskovSubstitutePrinciple" />
+        <module name="LiskovSubstitutePrincipleViolated" />
         <module name="OpenClosedPrinciple" />
         <module name="OpenClosedPrincipleViolated" />
+      </profile>
+      <profile default="false" name="Annotation profile for SingleResponsibilityPrinciple" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="SingleResponsibilityPrinciple" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="DesignPrinciples" target="1.5" />
       <module name="LiskovSubstitutePrinciple" target="1.5" />
+      <module name="LiskovSubstitutePrincipleViolated" target="1.5" />
       <module name="OpenClosedPrinciple" target="1.5" />
       <module name="OpenClosedPrincipleViolated" target="1.5" />
+      <module name="SingleResponsibilityPrinciple" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
