@@ -1,3 +1,6 @@
+package app.milleniuminfinity.com.assignment6.factories;
+
+import app.milleniuminfinity.com.assignment6.domain.internet.Internet;
 
 /**
  * Write a description of class InternetFactory here.

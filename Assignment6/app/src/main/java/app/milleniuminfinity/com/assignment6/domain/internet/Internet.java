@@ -1,4 +1,4 @@
-
+package app.milleniuminfinity.com.assignment6.domain.internet;
 /**
  * Write a description of class Internet here.
  * 

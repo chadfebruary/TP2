@@ -1,9 +1,14 @@
- 
+package app.milleniuminfinity.com.assignment6.factories;
 
 /**
  * Created by Admin on 2016/04/15.
  */
 import java.util.Date;
+
+import app.milleniuminfinity.com.assignment6.domain.employee.Cleaner;
+import app.milleniuminfinity.com.assignment6.domain.employee.Employee;
+import app.milleniuminfinity.com.assignment6.domain.employee.SalesRepresentative;
+import app.milleniuminfinity.com.assignment6.domain.employee.SecurityGuard;
 
 public class EmployeeFactory {
 

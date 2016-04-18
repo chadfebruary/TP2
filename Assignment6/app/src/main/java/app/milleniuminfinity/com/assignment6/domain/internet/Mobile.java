@@ -1,3 +1,4 @@
+import app.milleniuminfinity.com.assignment6.domain.internet.Internet;
 
 /**
  * Write a description of class Mobile here.

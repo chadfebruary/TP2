@@ -1,4 +1,4 @@
- 
+package app.milleniuminfinity.com.assignment6.domain.shop;
 
 /**
  * Created by Admin on 2016/04/15.

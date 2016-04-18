@@ -1,4 +1,6 @@
- 
+package app.milleniuminfinity.com.assignment6.factories;
+
+import app.milleniuminfinity.com.assignment6.domain.shop.Shop;
 
 /**
  * Created by Admin on 2016/04/15.
