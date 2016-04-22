@@ -1,0 +1,7 @@
+package app.milleniuminfinity.com.assignment6.repository.internet;
+
+/**
+ * Created by Chad on 4/21/2016.
+ */
+public interface InternetRepository <Internet, String> {
+}
